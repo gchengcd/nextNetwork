@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>DbInitServlet</servlet-name>
+    <servlet-class>cn.nnw.init.DbInitServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetHotModuleServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.GetHotModuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleInitServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleInitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleSortServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleSortServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleProcessServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleProcessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleTextServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleTextServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleColorServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleColorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleColorInitServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleColorInitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModuleTextInitServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.ModuleTextInitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HotLinkChangeServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.HotLinkChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <servlet-class>cn.nnw.web.controller.DownLoadServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DbInitServlet</servlet-name>
+    <url-pattern>/servlet/DbInitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHotModuleServlet</servlet-name>
+    <url-pattern>/servlet/GetHotModuleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleInitServlet</servlet-name>
+    <url-pattern>/servlet/ModuleInitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleSortServlet</servlet-name>
+    <url-pattern>/servlet/ModuleSortServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleProcessServlet</servlet-name>
+    <url-pattern>/servlet/ModuleProcessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleTextServlet</servlet-name>
+    <url-pattern>/servlet/ModuleTextServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleColorServlet</servlet-name>
+    <url-pattern>/servlet/ModuleColorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleColorInitServlet</servlet-name>
+    <url-pattern>/servlet/ModuleColorInitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModuleTextInitServlet</servlet-name>
+    <url-pattern>/servlet/ModuleTextInitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotLinkChangeServlet</servlet-name>
+    <url-pattern>/servlet/HotLinkChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <url-pattern>/servlet/DownLoadServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

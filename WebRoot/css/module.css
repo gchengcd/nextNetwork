@@ -1,0 +1,87 @@
+
+.wby1 {
+    border: 1px solid #CCCCCC;
+    height: 18px;
+    vertical-align: middle;
+    width: 100%;
+}
+.wby2 {
+    border: 1px solid #CCCCCC;
+    height: 18px;
+    width: 67px;
+}
+.wby3 {
+    border: 1px solid #2BA401;
+    color: #333333;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 4px;
+    width: 194px;
+}
+.wby4 {
+    border: 1px solid #CCCCCC;
+    height: 18px;
+    width: 57px;
+}
+.wby5 {
+    border: 1px solid #CCCCCC;
+    height: 75px;
+    margin: 5px 4px;
+    width: 660px;
+}
+.wby6 {
+    border: 1px solid #CCCCCC;
+    height: 18px;
+    width: 117px;
+}
+#button {
+    margin: 0 0 0 4px;
+}
+.mb {
+    border-left: 1px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+}
+.mb td {
+    border-bottom: 1px solid #E1E1E1;
+    border-right: 1px solid #E1E1E1;
+    text-align: center;
+}
+tr.htr {
+    background-color: #E9F4FE;
+    font-weight: 600;
+}
+.pagenavpage {
+    background-color: #FFFFFF;
+    border: 1px solid #07746F;
+    font-size: 12px;
+    line-height: 18px;
+    width: 20px;
+}
+.pagenavbtngo {
+    background-color: #FFFFFF;
+    border: 1px solid #07746F;
+    height: 18px;
+}
+.pagenav {
+    font-size: 12px;
+    height: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.pagenav form {
+    margin: 0;
+}
+body, td, div, p, font {
+    font-size: 12px;
+}
+form, body {
+    margin: 0;
+}
+a {
+    color: #2C64B9;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}

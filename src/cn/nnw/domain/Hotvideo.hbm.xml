@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<!--表明解析本XML文件的DTD文档位置，DTD是Document Type Definition 的缩写,即文档类型的定义,XML解析器使用DTD文档来检查XML文件的合法性。hibernate.sourceforge.net/hibernate-configuration-3.0dtd可以在Hibernate3.1.3软件包中的src\org\hibernate目录中找到此文件 --> 
+<!DOCTYPE hibernate-mapping PUBLIC 
+          "-//Hibernate/Hibernate mapping DTD 3.0//EN" 
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	    <class name="cn.nnw.domain.Hotvideo" table="hotvideo_info">
+	    <id name="hotvideo" column="hotVideo">
+	    </id>
+	    <property name="accessamount" column="accessAmount"/>
+	    <property name="location" column="location"/>
+	    <property name="cachetime" column="cacheTime"/>
+	    <property name="title" column="title"/>
+	
+	    </class>
+</hibernate-mapping>
+

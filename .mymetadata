@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="nextNetwork"
+  id="myeclipse.1371623504619"
+  context-root="/nextNetwork"
+  j2ee-spec="5.0"
+  archive="nextNetwork.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
